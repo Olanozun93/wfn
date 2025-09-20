@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nozun Ltd | CTO-as-a-Service for Startups</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-rocket text-indigo-600 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-gray-900">Maria</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#services" class="nav-link text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Services</a>
+                    <a href="#how-it-works" class="nav-link text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">How It Works</a>
+                    <a href="#case-studies" class="nav-link text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Case Studies</a>
+                    <a href="#pricing" class="nav-link text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Pricing</a>
+                    <a href="#contact" class="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition duration-150">Get Started</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none">
+                        <span class="sr-only">Open main menu</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="pt-2 pb-3 space-y-1">
+                <a href="#services" class="block px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50">Services</a>
+                <a href="#how-it-works" class="block px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50">How It Works</a>
+                <a href="#case-studies" class="block px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50">Case Studies</a>
+                <a href="#pricing" class="block px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50">Pricing</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-indigo-600 hover:text-indigo-800 hover:bg-gray-50">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 md:pt-32 md:pb-20 gradient-bg text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">Fractional CTO Services for <span class="text-yellow-300">Product-Led</span> Startups</h1>
+                    <p class="text-xl mb-8">Get expert technical leadership without the full-time cost. We help founders build, scale, and optimize their technology stack.</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#contact" class="bg-white text-indigo-600 px-6 py-3 rounded-lg text-lg font-semibold text-center hover:bg-gray-100 transition duration-150">Book a Free Consultation</a>
+                        <a href="#how-it-works" class="border-2 border-white text-white px-6 py-3 rounded-lg text-lg font-semibold text-center hover:bg-white hover:text-indigo-600 transition duration-150">Learn More</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="https://illustrations.popsy.co/amber/digital-nomad.svg" alt="CTO Illustration" class="w-full max-w-md animate-float">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-center text-gray-500 text-sm font-semibold uppercase tracking-wide mb-8">Trusted by innovative startups</h2>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+                <div class="flex justify-center items-center">
+                    <img src="https://logo.clearbit.com/stripe.com" alt="Stripe" class="h-12 opacity-70 hover:opacity-100 transition duration-150">
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="https://logo.clearbit.com/airbnb.com" alt="Airbnb" class="h-12 opacity-70 hover:opacity-100 transition duration-150">
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="https://logo.clearbit.com/shopify.com" alt="Shopify" class="h-12 opacity-70 hover:opacity-100 transition duration-150">
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="https://logo.clearbit.com/notion.so" alt="Notion" class="h-12 opacity-70 hover:opacity-100 transition duration-150">
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="https://logo.clearbit.com/figma.com" alt="Figma" class="h-12 opacity-70 hover:opacity-100 transition duration-150">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Our CTO Services</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">Comprehensive technical leadership tailored to your startup's needs</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="w-16 h-16 bg-indigo-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-code text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Technical Strategy</h3>
+                    <p class="text-gray-600 mb-4">We help define your technology roadmap, architecture decisions, and stack selection to align with business goals.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Technology stack evaluation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Scalability planning</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Technical due diligence</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="w-16 h-16 bg-indigo-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Team Building</h3>
+                    <p class="text-gray-600 mb-4">We help you hire, structure, and manage your engineering team to maximize productivity and culture fit.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Technical hiring strategy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Interview process design</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Team structure optimization</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="w-16 h-16 bg-indigo-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Product Development</h3>
+                    <p class="text-gray-600 mb-4">We guide your product development process from MVP to scale with best practices and lean methodologies.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Agile process implementation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Technical debt management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Feature prioritization</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">How It Works</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">Simple process to get expert technical leadership</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-indigo-600 text-2xl font-bold">1</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Discovery Call</h3>
+                    <p class="text-gray-600">We understand your business goals and technical challenges.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-indigo-600 text-2xl font-bold">2</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Custom Proposal</h3>
+                    <p class="text-gray-600">We create a tailored engagement plan for your needs.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-indigo-600 text-2xl font-bold">3</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Onboarding</h3>
+                    <p class="text-gray-600">We integrate with your team and begin technical leadership.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-indigo-600 text-2xl font-bold">4</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Execution</h3>
+                    <p class="text-gray-600">We deliver results through regular check-ins and strategic guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Success Stories</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">How we've helped startups achieve technical excellence</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:flex-shrink-0 md:w-1/3 bg-indigo-100 flex items-center justify-center">
+                            <i class="fas fa-shopping-cart text-indigo-600 text-5xl"></i>
+                        </div>
+                        <div class="p-8">
+                            <div class="uppercase tracking-wide text-sm text-indigo-600 font-semibold mb-1">E-commerce</div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Scaling a DTC Platform</h3>
+                            <p class="text-gray-600 mb-4">Helped a direct-to-consumer brand scale their platform to handle 10x traffic during peak seasons while reducing infrastructure costs by 40%.</p>
+                            <div class="flex items-center">
+                                <div class="flex-shrink-0">
+                                    <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/women/47.jpg" alt="Client">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">Sarah Johnson</p>
+                                    <p class="text-sm text-gray-500">CEO, StyleHub</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:flex-shrink-0 md:w-1/3 bg-indigo-100 flex items-center justify-center">
+                            <i class="fas fa-mobile-alt text-indigo-600 text-5xl"></i>
+                        </div>
+                        <div class="p-8">
+                            <div class="uppercase tracking-wide text-sm text-indigo-600 font-semibold mb-1">Mobile App</div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">From MVP to Series A</h3>
+                            <p class="text-gray-600 mb-4">Guided a fitness tech startup from prototype to production, helping them secure $5M in Series A funding with a solid technical foundation.</p>
+                            <div class="flex items-center">
+                                <div class="flex-shrink-0">
+                                    <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">Michael Chen</p>
+                                    <p class="text-sm text-gray-500">Founder, FitGenius</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200">
+                    View All Case Studies
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-indigo-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">What Founders Say</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">Don't just take our word for it</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/women/28.jpg" alt="Testimonial">
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">Emma Rodriguez</h4>
+                            <p class="text-indigo-600">Founder, HealthTrack</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"TechPilot's fractional CTO helped us navigate complex technical decisions during our critical growth phase. Their expertise saved us months of trial and error."</p>
+                    <div class="mt-4 flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/men/75.jpg" alt="Testimonial">
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">David Kim</h4>
+                            <p class="text-indigo-600">CEO, EduTech Solutions</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"As a non-technical founder, having access to a seasoned CTO gave me the confidence to make informed decisions about our technology stack and team structure."</p>
+                    <div class="mt-4 flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/women/63.jpg" alt="Testimonial">
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="text-lg font-semibold text-gray-900">Priya Patel</h4>
+                            <p class="text-indigo-600">Co-founder, GreenDelivery</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"The technical audit they conducted identified critical vulnerabilities we didn't know existed. Their proactive approach saved us from potential disaster."</p>
+                    <div class="mt-4 flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Flexible Engagement Models</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">Choose the plan that fits your startup's stage and needs</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Advisory</h3>
+                    <p class="text-gray-600 mb-6">For early-stage startups needing strategic guidance</p>
+                    <div class="mb-6">
+                        <span class="text-4xl font-bold text-gray-900">$2,500</span>
+                        <span class="text-gray-500">/month</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>4 hours per week</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+
+</html>
